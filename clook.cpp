@@ -27,6 +27,8 @@ int main(){
             }
             else if(i==m.size()-1)
             {
+                i=0;
+                
                 c=m[i];
                 cout<<m[i]<<" -> ";
                 m.erase(m.begin()+i);
