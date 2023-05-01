@@ -34,7 +34,7 @@ int main()
             break;
         }
     }
-    int min = 35;
+    int min = INT_MAX;
     int j=0;
     for (int i = 0; i < n; i++)
     {

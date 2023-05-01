@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    vector<int> m = {7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 3};
+    vector<int> m = {7, 0, 1, 2, 0, 3, 0, 4, 2, 3, 0, 3, 2, 1,2,0,1,7,0,1};
     int n;
     cout << "Enter the number of slots ";
     cin >> n;
@@ -44,10 +44,10 @@ int main()
                 {
                     m1 = min;
                     h = k;
-                }
+                }   
                 // cout<<m1<<endl;
             }
-            if (m1 != 0)
+            if (m1 != j)
                 j = h;
 
             m1 = 0;
