@@ -1,0 +1,26 @@
+[0-9][0-9][0-9][5][5] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[0-9][0-9][5][0-9][5] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[0-9][5][0-9][0-9][5] { printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[5][0-9][0-9][0-9][5] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[0-9][0-9][5][5][0-9] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[0-9][5][0-9][5][0-9] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[5][0-9][0-9][5][0-9] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[0-9][5][5][0-9][0-9] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[5][0-9][5][0-9][0-9] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[5][5][0-9][0-9][0-9] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[0-9]*(00) {printf("accepted - ending with 00 \n");}
+[0-9]*(222)[0-9]* {printf("accepted - consective 222 \n");}
+
+.*                    printf("String does not satisfy the condition.\n");
+[0-9][0-9][0-9][5][5] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[0-9][0-9][5][0-9][5] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[0-9][5][0-9][0-9][5] { printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[5][0-9][0-9][0-9][5] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[0-9][0-9][5][5][0-9] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[0-9][5][0-9][5][0-9] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[5][0-9][0-9][5][0-9] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[0-9][5][5][0-9][0-9] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[5][0-9][5][0-9][0-9] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[5][5][0-9][0-9][0-9] {printf("accepted - Every consective 5 digits has atleast 2 fives \n");}
+[0-9]* {printf("rejected\n");}
+end {printf("end of input\n");return 0;}
